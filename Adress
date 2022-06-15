@@ -1,0 +1,15 @@
+package com.company;
+
+public class Main {
+public static void main(String[] args) {
+
+        Adre adresse1 = new Adre("Андрей", "Минск", "Есенина", 68, 3, 10);
+        Adre adresse2 = new Adre("Петя", "Пенза", "Ленина", 22, 0, 8);
+        Adre adresse3 = new Adre("Вася", "Тверь", "Пушкина",111);
+
+        adresse1.adreOut();
+        adresse2.adreOut();
+        adresse3.adreOut();
+    }
+
+}
